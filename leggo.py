@@ -5,4 +5,4 @@ try:
   for riga in righe:
     print(riga, end='')
 except FileNotFoundError as e:
-  print(f"[-] errore bloccante: {str(e)"}
+  print(f"[-] errore bloccante: {str(e)}")
